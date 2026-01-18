@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name=<script type="module" src="../src/main.js"></script>
-"viewport" content="width=device-width, initial-scale=1.0">
-  <title>ルート<script type="module" src="../src/main.js"></script>
-マイスター</title>
+  <meta charset="UTF-8">
+  <title>ルートマイスター</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Leaflet -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>ルートマイスター</h1>
-  <p>ここから開発を始めます。</p>
-<script type="module" scr="../scr/main.js"></script>
+  <header>
+    <h1>ルートマイスター</h1>
+    <button id="locateBtn">現在地に戻る</button>
+  </header>
+
+  <div id="map"></div>
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+  </script>
+  <script src="../src/main.js"></script>
 </body>
 </html>

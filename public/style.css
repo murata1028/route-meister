@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+header {
+  height: 60px;
+  padding: 8px 12px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#map {
+  height: calc(100% - 60px);
+  width: 100%;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 14px;
+}
